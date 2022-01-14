@@ -14,9 +14,6 @@
     - [8 - Crie um endpoint para deletar uma venda](#8---crie-um-endpoint-para-deletar-uma-venda)
     - [9 - Atualize a quantidade de produtos](#9---atualize-a-quantidade-de-produtos)
     - [10 - Valide a quantidade de produtos](#10---valide-a-quantidade-de-produtos)
-    - [11 - Escreva testes para seus models](#11---escreva-testes-para-seus-models)
-    - [12 - Escreva testes para seus services](#12---escreva-testes-para-seus-services)
-    - [13 - Escreva testes para seus controllers](#13---escreva-testes-para-seus-controllers)
 
 ---
 
@@ -535,32 +532,6 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
   - Um produto não poderá ficar com a quantidade menor que zero, o resultado retornado deverá ser conforme exibido abaixo, com status http `404`:
 
 ![Compra maior que a quantidade](./public/compramaiorqueaquantidade.png)
-
-## Bônus
-
-## 11 - Escreva testes para seus models
-
-- Utilize o mocha, chai e sinon para escrever seus testes
-
-- Coloque todos os testes de models no arquivo `test/unit/models.js`
-
-- Será validado que cobertura total das linhas dos arquivos na pasta `models` é maior ou igual a 60% e ao menos 45 linhas são cobertas pelos testes.
-
-## 12 - Escreva testes para seus services
-
-- Utilize o mocha, chai e sinon para escrever seus testes
-
-- Coloque todos os testes de services no arquivo `test/unit/services.js`
-
-- Será validado que cobertura total das linhas dos arquivos na pasta `services` é maior ou igual a 60% e ao menos 24 linhas são cobertas pelos testes
-
-## 13 - Escreva testes para seus controllers
-
-- Utilize o mocha, chai e sinon para escrever seus testes
-
-- Coloque todos os testes de controllers no arquivo `test/unit/controllers.js`
-
-- Será validado que cobertura total das linhas dos arquivos na pasta `controllers` é maior ou igual a 60% e ao menos 24 linhas são cobertas pelos testes
 
 ---
 
