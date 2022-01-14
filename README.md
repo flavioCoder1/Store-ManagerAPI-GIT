@@ -19,7 +19,7 @@
 
 # Habilidades
 
-Habilidades desenvolvidas nesse projeto:
+Habilidades que eu desenvolvi nesse projeto:
 
 - Entender o funcionamento da camada de Model;
 - Delegar responsabilidades específicas para essa camada;
@@ -34,7 +34,7 @@ Habilidades desenvolvidas nesse projeto:
 
 ## O que foi desenvolvido
 
-Foi desenvolvido uma API utilizando a arquitetura MSC(Model-Service-Controller)!
+Eu desenvolvi uma API utilizando a arquitetura MSC(Model-Service-Controller)!
 
 A API trata-se de um sistema de gerenciamento de vendas, onde será possível criar, visualizar, deletar e atualizar produtos e vendas.
 
@@ -42,7 +42,7 @@ A API trata-se de um sistema de gerenciamento de vendas, onde será possível cr
 
 ## Desenvolvimento
 
-Foi desenvolvido todas as camadas da API (Models, Services caso necessário, e Controllers).
+Eu desenvolvi todas as camadas da API (Models, Services caso necessário, e Controllers).
 
 Através dessa aplicação, será possível realizar as operações básicas que se pode fazer em um determinado banco de dados: Criação, Leitura, Atualização e Exclusão (ou `CRUD`, para as pessoas mais mais íntimas 😜).
 
