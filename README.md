@@ -160,7 +160,7 @@ Na saída da execução dos testes, você verá um <img src="./public/orange-cir
 
 # Endpoints desenvolvidos no projeto
 
-### 1 - Crie um endpoint para o cadastro de produtos
+### 1 - Criei um endpoint para o cadastro de produtos método POST no endpoint `/products`
 
 - O endpoint deve ser acessível através do caminho (`/products`);
 
@@ -242,7 +242,7 @@ O projeto deve rodar na porta `http://localhost:3000`
 
 ![Criar produtos](./public/criarProdutos.png)
 
-### 2 - Crie um endpoint para listar os produtos
+### 2 - Criei um endpoint para listar os produtos método GET no endpoint `/products` ou `/products/:id`
 
 - O endpoint deve ser acessível através do caminho (`/products`) ou (`/products/:id`);
 
@@ -270,7 +270,7 @@ O projeto deve rodar na porta `http://localhost:3000`
 
 ![Produto não existe](./public/produtonaoexiste.png)
 
-### 3 - Crie um endpoint para atualizar um produto
+### 3 - Criei um endpoint para atualizar um produto método PUT no endpoint `/products/:id`
 
 - O endpoint deve ser acessível através do caminho (`/products/:id`);
 
@@ -314,7 +314,7 @@ O projeto deve rodar na porta `http://localhost:3000`
 
 ![Atualizado com sucesso](./public/atualizarcomsucesso.png)
 
-### 4 - Crie um endpoint para deletar um produto
+### 4 - Criei um endpoint para deletar um produto método DELETE no endpoint `/products/:id`
 
 - O endpoint deve ser acessível através do caminho (`/products/:id`);
 
@@ -334,7 +334,7 @@ O projeto deve rodar na porta `http://localhost:3000`
 
 ![Deletar um produto que não existe](./public/deletarumprodutoquenaoexiste.png)
 
-### 5 - Crie um endpoint para cadastrar vendas
+### 5 - Criei um endpoint para cadastrar vendas método POST no endpoint `/sales`
 
 - O endpoint deve ser acessível através do caminho (`/sales`);
 
@@ -410,7 +410,7 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
 ![Cadastrar varias compras](./public/variascompras.png)
 
-### 6 - Crie um endpoint para listar as vendas
+### 6 - Criei um endpoint para listar as vendas método GET no endpoint `/sales` ou `/sales/:id`
 
 - O endpoint deve ser acessível através do caminho (`/sales`) ou (`/sales/:id`);
 
@@ -438,7 +438,7 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
 ![Listar uma venda que não existe](./public/vendanaoexiste.png)
 
-### 7 - Crie um endpoint para atualizar uma venda
+### 7 - Criei um endpoint para atualizar uma venda método PUT no endpoint `/sales/:id`
 
 - O endpoint deve ser acessível através do caminho (`/sales/:id`);
 
@@ -483,7 +483,7 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
 ![Atualizar uma venda com sucesso](./public/atualizarvendacomsucesso.png)
 
-### 8 - Crie um endpoint para deletar uma venda
+### 8 - Crie um endpoint para deletar uma venda método DELETE no endpoint `/sales/:id`
 
 - O endpoint deve ser acessível através do caminho (`/sales/:id`);
 
